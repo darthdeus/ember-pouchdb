@@ -24,7 +24,9 @@
         "strictEqual",
         "module",
         "expect",
-        "minispade"
+        "minispade",
+        "PouchDB",
+        "Pouch"
     ],
 
     "node" : false,

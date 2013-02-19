@@ -1,1 +1,3 @@
-Ember.PouchdbAdapter = DS.Adapter.extend();
+require("pouchdb/core");
+
+PouchDB = Ember.Namespace.create();
