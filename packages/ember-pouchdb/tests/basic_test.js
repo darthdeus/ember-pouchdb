@@ -1,5 +1,14 @@
-module("EmberPouchdb");
+var get = Ember.get, set = Ember.set,
+    adapter;
 
-test("it's an Ember namespace", function() {
-  ok(Ember.PouchdbAdapter instanceof Ember.Namespace, 'should be a namespace');
+module("EmberPouchdbAdapter", {
+
+  setup: function() {
+    adapter = Ember.PouchdbAdapter.create();
+  },
+
+  teardown: function() {
+    adapter.destroy();
+  }
+
 });

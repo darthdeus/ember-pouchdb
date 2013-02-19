@@ -1,1 +1,1 @@
-Ember.PouchdbAdapter = Ember.Object.extend({});
+Ember.PouchdbAdapter = DS.Adapter.extend();
